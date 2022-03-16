@@ -30,7 +30,14 @@ export default {
   },
   data() {
     return {
-      person: {},
+      person: {
+        name: {
+          first: "Mohammad",
+          last: "Raufzahed"
+        },
+        profile: "https://randomuser.me/api/portraits/men/54.jpg",
+        email: "mohammadraufzahed@protonmail.com"
+      },
       loading: false,
     };
   },
